@@ -9,7 +9,7 @@ const UserForm = () => {
 
     return (
         <div>
-            <h2>Enter Your Information</h2>
+            <h1>User Information</h1>
             <input
                 type="text"
                 placeholder="Enter Name"
