@@ -22,10 +22,10 @@ const UserForm = () => {
                 value={email}
                 onChange={(e) => dispatch(updateEmail(e.target.value))} // ✅ Correctly dispatch action
             />
-            <div className="output">
+            <section className="output">
                 <p>Name - {name}</p>
                 <p>Email - {email}</p>
-            </div>
+            </section>
         </div>
     );
 };
